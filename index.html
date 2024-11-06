@@ -4,8 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.46/moment-timezone-with-data-1970-2030.min.js"></script>
+
     <title>World clock</title>
   </head>
+
   <body>
     <div class="container">
       <h1>World clock</h1>
@@ -16,19 +22,19 @@
         <option value="">London</option>
         <option value="">Seoul</option>
       </select>
-      <div class="city">
+      <div class="city" id="tallinn">
         <div>
           <h2>Tallinn</h2>
-          <div class="date">November 4th 2024</div>
+          <div class="date"></div>
         </div>
-        <div class="time">9:44:45 <small>AM</small></div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+      <div class="city" id="oslo">
         <div>
           <h2>Oslo</h2>
-          <div class="date">November 4th 2024</div>
+          <div class="date"></div>
         </div>
-        <div class="time">8:44:45 <small>AM</small></div>
+        <div class="time"></div>
       </div>
     </div>
     <footer>
