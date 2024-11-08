@@ -15,26 +15,28 @@
   <body>
     <div class="container">
       <h1>World clock</h1>
-      <select name="" id="">
+      <select name="" id="city">
         <option value="">Choose a city...</option>
-        <option value="">Tallinn</option>
-        <option value="">Oslo</option>
-        <option value="">London</option>
-        <option value="">Seoul</option>
+        <option value="Europe/Tallinn">Tallinn</option>
+        <option value="Australia/Perth">Perth</option>
+        <option value="America/Los_Angeles">Los Angeles</option>
+        <option value="Asia/Seoul">Seoul</option>
       </select>
-      <div class="city" id="tallinn">
-        <div>
-          <h2>Tallinn</h2>
-          <div class="date"></div>
+      <div id="cities">
+        <div class="city" id="tallinn">
+          <div>
+            <h2>Tallinn</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
-      <div class="city" id="oslo">
-        <div>
-          <h2>Oslo</h2>
-          <div class="date"></div>
+        <div class="city" id="perth">
+          <div>
+            <h2>Perth</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
       </div>
     </div>
     <footer>
