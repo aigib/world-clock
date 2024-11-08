@@ -1,6 +1,6 @@
 body {
-  background-color: #f9f7fe;
-  font-family: sans-serif;
+  background-color: #efe4f0;
+  font-family: "Gruppo", sans-serif;
 }
 .container {
   background: white;
@@ -11,11 +11,14 @@ body {
   padding: 30px;
 }
 h1 {
+  color: #763a78;
   text-align: center;
+  font-size: 55px;
 }
 h2 {
+  color: #763a78;
   margin: 0 0 5px;
-  font-size: 28px;
+  font-size: 36px;
 }
 select {
   display: block;
@@ -23,6 +26,7 @@ select {
   width: 100%;
   padding: 10px;
   font-size: 18px;
+  color: #763a78;
 }
 .city {
   display: flex;
@@ -38,7 +42,8 @@ select {
   opacity: 0.7;
 }
 .time {
-  font-size: 36px;
+  color: #763a78;
+  font-size: 60px;
   font-weight: bold;
 }
 .time small {
@@ -49,4 +54,8 @@ select {
 footer {
   text-align: center;
   color: rgba(0, 0, 0, 0.7);
+  font-size: 18px;
+}
+footer strong {
+  color: #763a78;
 }
